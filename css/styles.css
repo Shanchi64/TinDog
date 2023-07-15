@@ -1,0 +1,198 @@
+body {
+    font-family: "montserrat";
+}
+
+/* css web safe fonts */
+
+h1, h2, h3 {
+    font-family: "Montserrat-bold";
+} 
+
+h2 {  
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+p {
+    color: gray;
+}
+
+/* headings */
+.big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* container-fluid */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* sections */
+.section-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* navigation bar */
+
+.navbar {
+    /* padding-bottom:4.5rem;  */
+    padding: 0 0 4.5rem ;
+}
+
+/* I made this */
+.nav-item {
+    padding: 0 10px;
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 3rem;
+    font-weight: bold;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* buttons */
+
+.download-button {
+    margin: 5% 3% 5%;
+}
+
+/* title section */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    right: 20%;
+    
+}
+
+#title .container-fluid {
+    text-align: left;
+    padding: 3% 15% 7%;
+}
+
+/* features section */
+
+#features {
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.feature-title {
+    line-height: 1.5;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin: 1rem;
+}
+
+.icon:hover {
+    color: #e8223f;
+}
+
+
+/* testimonial section */
+
+#testimonials {
+    color: #fff;
+    text-align: center;
+    background-color: #ef8172;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* press section */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+}
+ 
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing { 
+    padding: 100px; 
+    text-align: center;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+
+
+.dog-img {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+#cta {
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+    
+}
+
+.social-icon {
+    margin: 10px 10px;
+}
+
+
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
